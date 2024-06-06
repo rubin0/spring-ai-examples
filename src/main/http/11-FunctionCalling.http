@@ -1,0 +1,30 @@
+## FunctionCallingController.java
+
+### Get all
+POST http://127.0.0.1:8080/function/openai/expense
+Accept: text/plain
+
+Give me the list of expenses
+
+### Get by category
+POST http://127.0.0.1:8080/function/openai/expense
+Accept: text/plain
+
+Give me the list of expenses with food category
+
+### New expense
+POST http://127.0.0.1:8080/function/openai/expense
+Accept: text/plain
+
+Insert a new expense made in a Taiwanese restaurant with amount 90 euros and date 10th of June 2024
+
+### New expense
+POST http://127.0.0.1:8080/function/openai/expense
+Accept: text/plain
+
+Paid the gas utility the 2nd of June 2024 for 120 euros
+
+
+
+
+

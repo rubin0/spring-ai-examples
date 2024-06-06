@@ -1,0 +1,19 @@
+## AudioController.java
+
+### Audio transcription
+POST http://localhost:8080/audio/openai/transcription
+Content-Type: application/x-www-form-urlencoded
+
+
+### TTS: alloy, echo, fable, onyx, nova, shimmer
+POST http://localhost:8080/audio/openai/tts/nova
+Accept: text/plain
+
+Questo è un esempio di trascrizione del testo.
+I can speak in different languages!
+Ich kann auch Deutsch sprechen!
+Bonjour, je m'appelle Omelette du Fromage
+###
+
+
+

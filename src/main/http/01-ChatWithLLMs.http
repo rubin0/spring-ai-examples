@@ -1,0 +1,12 @@
+## SimpleChatController.java
+
+### Hello! How is it going today?
+GET http://127.0.0.1:8080/chat/simple/ollama
+
+###
+GET http://localhost:8080/chat/simple/openai
+
+###
+GET http://localhost:8080/chat/simple/mistral
+
+###

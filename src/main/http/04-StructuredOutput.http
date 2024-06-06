@@ -1,0 +1,27 @@
+## OutputConverterController.java
+
+### List output
+POST http://127.0.0.1:8080/chat/structured/openai/list
+Content-Type: application/json
+
+{
+  "type": "fire",
+  "region": "johto"
+}
+
+### Map output
+POST http://127.0.0.1:8080/chat/structured/openai/map
+Content-Type: application/json
+
+{
+  "type": "psycho",
+  "region": "kanto"
+}
+
+### Bean output
+POST http://127.0.0.1:8080/chat/structured/openai/bean
+Content-Type: application/json
+
+{
+  "pokemon": "Snorlax"
+}

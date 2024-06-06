@@ -1,0 +1,36 @@
+## SemanticSearchController.java
+
+### Create embeddings
+POST http://127.0.0.1:8080/semanticSearch/openai/load
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+POST http://127.0.0.1:8080/semanticSearch/openai/search
+Accept: application/json
+
+cultural
+
+###
+
+POST http://127.0.0.1:8080/semanticSearch/openai/search
+Accept: application/json
+
+relaxing
+
+###
+
+POST http://127.0.0.1:8080/semanticSearch/openai/search
+Accept: application/json
+
+romantic
+
+###
+
+POST http://127.0.0.1:8080/semanticSearch/openai/search
+Accept: application/json
+
+vibrant
+
+###

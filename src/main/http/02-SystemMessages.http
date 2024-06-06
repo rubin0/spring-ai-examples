@@ -1,0 +1,37 @@
+## PromptChatController.java
+
+### Custom user message Ollama
+POST http://127.0.0.1:8080/chat/prompt/ollama/
+
+What is the capital of Italy?
+
+### Custom user message OpenAI
+POST http://127.0.0.1:8080/chat/prompt/openai/
+
+What is the capital of Italy?
+
+### Custom user message Mistral
+POST http://127.0.0.1:8080/chat/prompt/mistral/
+
+What is the capital of Italy?
+
+### Full chat response
+POST http://127.0.0.1:8080/chat/prompt/openai/full
+Accept: application/json
+
+What is the capital of Italy?
+
+### System message - 1
+POST http://localhost:8080/chat/prompt/openai/system
+
+What is the capital of Italy?
+
+### System message - 2
+POST http://localhost:8080/chat/prompt/openai/system
+
+What's your favourite Pokemon?
+
+### System message - 3 (external)
+POST http://localhost:8080/chat/prompt/openai/external
+
+Who are you and what's your favourite Pokemon?

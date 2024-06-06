@@ -1,0 +1,21 @@
+## ClassificationController.java
+
+### Classify expenses
+POST http://127.0.0.1:8080/classification/openai/classify
+Accept: application/json
+
+Hawaii plane ticket
+
+###
+POST http://127.0.0.1:8080/classification/openai/classify
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+
+Mobile phone bill
+
+###
+POST http://127.0.0.1:8080/classification/openai/classify
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+
+August home rent

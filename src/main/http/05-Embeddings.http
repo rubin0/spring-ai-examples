@@ -1,0 +1,13 @@
+## EmbeddingsController.java
+
+### Create embeddings
+POST http://127.0.0.1:8080/embeddings/ollama/embed
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+
+userMessage=Dog
+
+###
+
+
+

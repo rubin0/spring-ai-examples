@@ -1,0 +1,38 @@
+## PromptChatController.java
+
+### Huge system message template
+POST http://127.0.0.1:8080/chat/prompt/ollama/pokedex?pokemon=Bulbasaur
+
+### Chat with memory - 1
+POST http://127.0.0.1:8080/chat/prompt/openai4/assistant/123
+Accept: text/plain
+
+Say my name
+
+### Chat with memory - 2
+POST http://127.0.0.1:8080/chat/prompt/openai4/assistant/123
+Accept: text/plain
+
+My name is Walter White. I am the one who knocks!
+
+### Chat with memory - 3
+POST http://127.0.0.1:8080/chat/prompt/openai4/assistant/123
+Accept: text/plain
+
+Now say my name!
+
+### Chat with memory - 4
+POST http://127.0.0.1:8080/chat/prompt/openai4/assistant/123
+Accept: text/plain
+Content-Type: application/x-www-form-urlencoded
+
+You are goddamn right!
+
+### Chat with memory - 5
+POST http://127.0.0.1:8080/chat/prompt/openai4/assistant/345
+Accept: text/plain
+Content-Type: application/x-www-form-urlencoded
+
+Who am I?
+
+###

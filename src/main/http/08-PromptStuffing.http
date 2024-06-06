@@ -1,0 +1,41 @@
+## PromptStuffingController.java
+
+### No prompt stuffing. Event after the cutoff date OLLAMA
+POST http://127.0.0.1:8080/chat/prompt/ollama/stuffing
+Accept: text/plain
+Content-Type: application/x-www-form-urlencoded
+
+userMessage = Who win the Australian Open 2024?
+
+### No prompt stuffing. Event after the cutoff date OPENAI
+POST http://127.0.0.1:8080/chat/prompt/openai4/stuffing
+Accept: text/plain
+Content-Type: application/x-www-form-urlencoded
+
+userMessage = Who win the Australian Open 2024?
+
+### Prompt stuffing OLLAMA
+POST http://127.0.0.1:8080/chat/prompt/ollama/stuffing
+Accept: text/plain
+Content-Type: application/x-www-form-urlencoded
+
+userMessage = Are there any spanish partecipants at the Australian Open 2024? &
+promptStuffing = true
+
+### Prompt stuffing OPENAI
+POST http://127.0.0.1:8080/chat/prompt/openai4/stuffing
+Accept: text/plain
+Content-Type: application/x-www-form-urlencoded
+
+userMessage = Who win the Australian Open 2024? &
+promptStuffing = true
+
+### Prompt stuffing OLLAMA
+POST http://127.0.0.1:8080/chat/prompt/ollama/stuffing
+Accept: text/plain
+Content-Type: application/x-www-form-urlencoded
+
+userMessage = Are there any spanish partecipants at the Australian Open 2024? &
+promptStuffing = true
+
+

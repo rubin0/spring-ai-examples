@@ -1,0 +1,43 @@
+## StructuredDataExtractionController.java
+
+POST http://127.0.0.1:8080/structuredDataExtraction/openai4/extract
+Content-Type: text/plain
+
+--------------------------------------------------
+                 SuperMart Grocery
+                  1234 Market St.
+                Springfield, USA
+                Tel: (555) 123-4567
+--------------------------------------------------
+Date: 2024-06-10                Time: 14:35
+--------------------------------------------------
+Item                              Qty   Price
+--------------------------------------------------
+1. Apples (Gala)                  3 lb  $2.97
+2. Bread (Whole Wheat)            1     $1.99
+3. Milk (2% Gallon)               1     $3.49
+4. Eggs (Large, Dozen)            1     $2.29
+5. Chicken Breast (Boneless)      2 lb  $7.98
+6. Lettuce (Romaine)              1     $1.49
+7. Carrots (Bag)                  1 lb  $0.89
+8. Orange Juice (1/2 Gallon)      1     $2.99
+9. Cereal (Corn Flakes)           1     $3.69
+10. Yogurt (Vanilla, 32 oz)       1     $2.99
+11. Cheese (Cheddar, 8 oz)        1     $2.49
+12. Bananas                       2 lb  $1.18
+13. Pasta (Spaghetti, 16 oz)      1     $1.29
+14. Tomato Sauce (24 oz)          1     $1.79
+15. Frozen Peas (16 oz)           1     $1.29
+--------------------------------------------------
+Subtotal                               $38.71
+Sales Tax (5%)                         $1.94
+--------------------------------------------------
+Total                                 $40.65
+--------------------------------------------------
+          Thank you for shopping with us!
+             Visit us again at SuperMart!
+--------------------------------------------------
+
+
+
+

@@ -1,0 +1,9 @@
+## ImageGenerationController.java
+
+### Load documents
+POST http://localhost:8080/chat/prompt/openai/image
+Accept: text/plain
+
+Generate an image of an AI-related tech lunch hosted by a software development company in the Italian-speaking part of Switzerland
+
+###

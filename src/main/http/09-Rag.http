@@ -1,0 +1,36 @@
+## RagController.java
+
+### OLLAMA - Load documents
+POST http://127.0.0.1:8080/chat/rag/ollama/load
+
+### OLLAMA - Chat with documents
+POST http://127.0.0.1:8080/chat/rag/ollama/doc
+Accept: text/plain
+Content-Type: application/x-www-form-urlencoded
+
+Can you summarise the story of Elara in few sentences?
+
+### OLLAMA - Chat with documents
+POST http://127.0.0.1:8080/chat/rag/ollama/doc
+Accept: text/plain
+Content-Type: application/x-www-form-urlencoded
+
+Tell me about the Alexandria story
+
+### OPENAI - Load documents
+POST http://127.0.0.1:8080/chat/rag/openai/load
+
+### OPENAI - Chat with documents
+POST http://127.0.0.1:8080/chat/rag/openai/doc
+Accept: text/plain
+
+Can you summarise the story of Elara in few sentences?
+
+### OPENAI - Chat with documents
+POST http://127.0.0.1:8080/chat/rag/openai/doc
+Accept: text/plain
+
+Tell me about the Alexandria story
+
+
+
