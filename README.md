@@ -3,6 +3,8 @@
 This Spring AI project was used as a reference for a tech lunch held at Welld Sagl during July 2024.
 
 It uses IntellijJ IDEA HTTP client in order to show the project's feature.
+
+You can find the slides [here](https://shorturl.at/qVGyS)
 ## Overview
 
 The project showcases various features of a Spring AI application, including:
