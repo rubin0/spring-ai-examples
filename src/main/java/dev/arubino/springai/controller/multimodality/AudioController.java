@@ -30,8 +30,9 @@ public class AudioController {
 
     @PostMapping(value = "/tts/{voice}")
     public String tts(@PathVariable(name = "model") String model,
+                      @PathVariable(name = "voice") String voice,
                     @RequestBody String message) {
-        audioService.speech(model, message);
+        audioService.speech(model, voice, message);
 
         return "OK";
     }

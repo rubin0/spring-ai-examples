@@ -6,7 +6,7 @@ Content-Type: application/x-www-form-urlencoded
 
 
 ### TTS: alloy, echo, fable, onyx, nova, shimmer
-POST http://localhost:8080/audio/openai/tts/nova
+POST http://localhost:8080/audio/openai/tts/alloy
 Accept: text/plain
 
 Questo è un esempio di trascrizione del testo.

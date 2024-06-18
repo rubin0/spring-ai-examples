@@ -40,12 +40,12 @@ public class AudioService {
                 .getOutput();
     }
 
-    public void speech(String model, String message) {
+    public void speech(String model, String voice, String message) {
         byte[] audioByte = audioModelConfig.getAudioSpeechModel(model)
                 .call(new SpeechPrompt(message,
                         OpenAiAudioSpeechOptions.builder()
                                 .withResponseFormat(OpenAiAudioApi.SpeechRequest.AudioResponseFormat.MP3)
-                                .withVoice(OpenAiAudioApi.SpeechRequest.Voice.ALLOY)
+                                .withVoice(OpenAiAudioApi.SpeechRequest.Voice.valueOf(voice))
                                 .build()
                 ))
                 .getResult()
