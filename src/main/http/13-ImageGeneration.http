@@ -1,9 +1,14 @@
 ## ImageGenerationController.java
 
-### Load documents
+### Generate image
 POST http://localhost:8080/chat/prompt/openai/image
 Accept: text/plain
 
 Generate an image of an AI-related tech lunch hosted by a software development company in the Italian-speaking part of Switzerland
 
+### Generate image
+POST http://localhost:8080/chat/prompt/openai/image?width=1792&height=1024
+Accept: text/plain
+
+Generate an essential image for a professional background on Linkedin of a organised Java Spring senior backend developer
 ###

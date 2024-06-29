@@ -17,9 +17,13 @@ public class ImageGenerationController {
     }
 
     @PostMapping(value = "/image")
-    public String recognition(@PathVariable(name = "model") String model,
-                              @RequestBody String userMessage) throws MalformedURLException {
-        return imageGenerationService.generate(model, userMessage);
+    public String generate(@PathVariable(name = "model") String model,
+                              @RequestParam(defaultValue = "1") int n,
+                              @RequestParam(defaultValue = "512") int height,
+                              @RequestParam(defaultValue = "512") int width,
+                              @RequestBody String userMessage) {
+        return imageGenerationService.generateWithOpenAiOption(model, userMessage, n, height, width);
     }
+
 
 }

@@ -32,13 +32,13 @@ public class ImageGenerationService {
                 .getUrl();
     }
 
-    public String generateWithOpenAiOption(String model, String userMessage) {
+    public String generateWithOpenAiOption(String model, String userMessage, int n, int height, int width) {
         return imageModelConfig.get(model)
                 .call(new ImagePrompt(userMessage, OpenAiImageOptions.builder()
                         .withQuality("standard")
-                        .withN(2)
-                        .withHeight(1024)
-                        .withWidth(1024)
+                        .withN(n)
+                        .withHeight(height)
+                        .withWidth(width)
                         .build()))
                 .getResult()
                 .getOutput()

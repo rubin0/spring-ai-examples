@@ -7,7 +7,7 @@ POST http://127.0.0.1:8080/chat/prompt/ollama/pokedex?pokemon=Bulbasaur
 POST http://127.0.0.1:8080/chat/prompt/openai4/assistant/123
 Accept: text/plain
 
-Say my name
+Who am I?
 
 ### Chat with memory - 2
 POST http://127.0.0.1:8080/chat/prompt/openai4/assistant/123
